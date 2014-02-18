@@ -1,6 +1,6 @@
 {
     "strategy": "hanaxs",
-        "host": "dshell.sapdevcenter.com:30015",
+        "host": "54.229.24.35:30015",
         "root": "root",
      "pattern": "moviedb"
 }
