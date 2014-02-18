@@ -1,4 +1,3 @@
-
 HANA XSW Engine Example Application
 
 - uses SAP UI5 
@@ -8,20 +7,20 @@ HANA XSW Engine Example Application
 
 Usage
 
-After forking please maintain
+After forking please update deployment.json:
 
-deployment.json
 change hostname, enter URL of your HANA instance
 
-setup service Hook as WebHook URL
 
-http://username:password@dshell.saphana.com:1237/?repo=https://github.com/gituser/helloworld
+Set up service Hook as WebHook URL:
+
+http://username:password@dshell.saphana.com:1237/?repo=https://github.com/gituser/MovieDB
 
 change username as your HANA user name
 change password as your HANA password 
 change gituser to your Github user name
 
-example: http://system:manager@dshell.saphana.com:1237/?repo=https://github.com/SAPDshell/helloworld
+example: http://system:manager@dshell.saphana.com:1237/?repo=https://github.com/SAPDshell/MovieDB
 
 From then on every commit to your repository triggers deployment to the HANA instance
 
