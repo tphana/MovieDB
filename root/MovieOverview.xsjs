@@ -7,6 +7,7 @@ function doResponse(code,body,mimetype){
     }
     $.response.contentType=mimetype;
     $.response.status=code;
+    var tp=3;
 }
 
 var conn = $.db.getConnection();
